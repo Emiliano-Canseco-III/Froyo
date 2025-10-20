@@ -1,5 +1,7 @@
-const userOrder = prompt("Hello! What froyo flavors would you like?");
-("Vanilla, Vanilla, Vanilla, Strawberry, Coffee, Coffee");
+const userOrder = prompt(
+  "Hello! What froyo flavors would you like?",
+  "Vanilla,Vanilla,Vanilla,Strawberry,Coffee,Coffee"
+);
 const froyoFlavor = userOrder.split(",");
 
 // Count the occurrences of each flavor
