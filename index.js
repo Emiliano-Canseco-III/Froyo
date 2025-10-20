@@ -4,7 +4,7 @@ const userOrder = prompt(
 );
 const froyoFlavor = userOrder.split(",");
 
-// Count the occurrences of each flavor
+// Count the occurrences of each flavor.
 const flavorCount = {};
 
 function countFlavors() {
